@@ -14,10 +14,6 @@ from 'react-native';
 import cssVar from 'cssVar';
 import NavigationBar from './NavigationBar';
 
-const {
-    isAndroid,
-} = require('../../utils/CommonUtils');
-
 class Navigation extends Component {
 
     static PropTypes = {
